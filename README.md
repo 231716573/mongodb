@@ -18,7 +18,7 @@ MongoDB将数据目录存储在 db 目录下。但是这个数据目录不会主
 ```D:\Program Files\MongoDB\Server\3.4\bin\mongod.exe --dbpath D:\data\db```
 
 ##### 但是这样启动太麻烦啦，我们不可能每次都这样来启动，所以我们把它配置成window服务：
-创建 mongod.cfg 文件，内容：
+在MongoDB的根目录创建 mongod.cfg 文件，内容：
 ```
 systemLog:
     destination: file
